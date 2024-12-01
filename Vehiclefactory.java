@@ -1,6 +1,6 @@
 public class Vehiclefactory {
 
-    public static Vehicle createVehicle(String vehicleType) {
+    public static Vehicle createVehicle(String vehicleType) {-------
         switch (vehicleType.toLowerCase()) {
             case "car":
                 return new Car();
